@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 import Dashboard from '../views/Dashboard.vue'
 import Projects from '../views/Projects.vue'
 import Team from '../views/Team.vue'
+import EditGrid from '../views/EditGrid.vue'
 
 Vue.use(VueRouter)
 
@@ -26,6 +27,15 @@ Vue.use(VueRouter)
     path: '/team',
     name: 'team',
     component: Team
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    // component: () => import(/* webpackChunkName: "about" */ '../views/Projects.vue')
+  },
+  {
+    path: '/editGrid',
+    name: 'editGrid',
+    component: EditGrid
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.

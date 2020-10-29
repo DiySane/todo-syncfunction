@@ -6,23 +6,27 @@
         <router-view></router-view>
       </v-main>
     </div>
-    <div>
+    <!-- <div>
       <UsersGrid />
-    </div>
-    <div>
+    </div> -->
+    <!-- <div>
       <APIDataManager />
-    </div>
+    </div> -->
+    <!-- <div>
+      <EditGrid />
+    </div> -->
   </v-app>
 </template>
 
 <script>
 import Navbar from "@/components/Navbar";
-import UsersGrid from "@/components/UsersGrid";
-import APIDataManager from "@/components/APIDataManager";
+// import UsersGrid from "@/components/UsersGrid";
+// import APIDataManager from "@/components/APIDataManager";
+// import EditGrid from "@/components/EditGrid";
 
 export default {
   name: "App",
-  components: { Navbar, UsersGrid, APIDataManager },
+  components: { Navbar },
   data: () => ({
     //
   })
