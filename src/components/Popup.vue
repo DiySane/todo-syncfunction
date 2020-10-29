@@ -1,7 +1,7 @@
 <template>
   <v-dialog max-width="600px" v-model="dialog">
     <template v-slot:activator="{ on, attrs }">
-      <v-btn flat v-bind="attrs" v-on="on" class="success">Add new project</v-btn>
+      <v-btn text v-bind="attrs" v-on="on" class="success">Add new project</v-btn>
     </template>
     <v-card>
       <v-card-title>
@@ -59,7 +59,8 @@ export default {
       due: null,
       menu: false,
       inputRules: [v => v.length >= 3 || "Minimum length is 3 characters"],
-      loading: false
+      loading: false,
+      dialog: false,
     };
   },
   methods: {
@@ -92,4 +93,4 @@ export default {
     }
   }
 };
-</script>script
+</script>

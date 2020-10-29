@@ -6,7 +6,7 @@
       <v-btn text color="white" @click="snackbar = false">Close</v-btn>
     </v-snackbar>
 
-    <v-app-bar flat app>
+    <v-app-bar text app>
       <!-- <v-toolbar-side-icon class="grey--text" @click="drawer = !drawer"></v-toolbar-side-icon> -->
       <v-app-bar-nav-icon class="grey--text" @click="drawer = !drawer"></v-app-bar-nav-icon>
       <v-toolbar-title class="text-uppercase grey--text">

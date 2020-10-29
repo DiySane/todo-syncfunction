@@ -1,28 +1,30 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+  <v-app>
+    <div class="grey lighten-4">
+      <Navbar />
+      <v-main class="mx-10 mb-10">
+        <router-view></router-view>
+      </v-main>
+    </div>
+    <div>
+      <UsersGrid />
+    </div>
+    <div>
+      <APIDataManager />
+    </div>
+  </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Navbar from "@/components/Navbar";
+import UsersGrid from "@/components/UsersGrid";
+import APIDataManager from "@/components/APIDataManager";
 
 export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
+  name: "App",
+  components: { Navbar, UsersGrid, APIDataManager },
+  data: () => ({
+    //
+  })
+};
 </script>
-
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>

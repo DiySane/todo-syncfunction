@@ -1,0 +1,1000 @@
+ 1040  vi app-resources/app-resources-prod-k8s-sfo.yml
+ 1041  vi app-resources/app-resources-dev-k8s-sv3.yml
+ 1042  vi app-resources/app-resources-ci-k8s-sv3.yml
+ 1043  mvn clean install
+ 1044  git status 
+ 1045  git checkout origin/master -- inventorymgmt-client/src/main/resources/jacoco_prev.xml
+ 1046  git status 
+ 1047  git add -u
+ 1048  git status 
+ 1049  git commit -m"WP-5627 & WP-5663: Consolidated welcome-email and integration-status-report changes together"
+ 1050  git status 
+ 1051  git push origin c
+ 1052  git push origin ci
+ 1053  git status 
+ 1054  mysql -ukdbuser -pKdBuSeR12! -h10.110.210.88 -P30712 KomliAdServer -A
+ 1055  mysql -ukdbuser -pKdBuSeR12! -h10.110.210.104 -P30306 KomliAdServer -A
+ 1056  mysql -ukdbuser -pKdBuSeR12! -h10.110.210.88 -P30712 KomliAdServer -A
+ 1057  mysql -ukdbuser -pKdBuSeR12! -h10.110.210.104 -P30306 KomliAdServer -A
+ 1058  mysql -ukdbuser -pKdBuSeR12! -h10.110.210.88 -P30712 KomliAdServer -A
+ 1059  mysql -ukdbuser -pKdBuSeR12! -h10.110.210.104 -P30306 KomliAdServer -A
+ 1060  mysql -ukdbuser -pKdBuSeR12! -h10.110.210.103 -P30306 KomliAdServer -A
+ 1061  mysql -ukdbuser -pKdBuSeR12! -h10.110.210.104 -P30306 KomliAdServer -A
+ 1062  exit
+ 1063  cd ~/CODEREPO/google-ob-int-alpha/pub-api-inventorymgmt/
+ 1064  git status 
+ 1065  git checkout google-ob-int-alpha-report 
+ 1066  git log
+ 1067  mvn clean install -DskipTests
+ 1068  sudo docker cp inventorymgmt-service/target/inventorymgmt.war e6223a5f680f:/usr/local/tomcat/webapps
+ 1069  mvn clean install -DskipTests
+ 1070  sudo docker cp inventorymgmt-service/target/inventorymgmt.war e6223a5f680f:/usr/local/tomcat/webapps
+ 1071  mvn clean install -DskipTests
+ 1072  sudo docker cp inventorymgmt-service/target/inventorymgmt.war e6223a5f680f:/usr/local/tomcat/webapps
+ 1073  mvn clean install -DskipTests
+ 1074  sudo docker cp inventorymgmt-service/target/inventorymgmt.war e6223a5f680f:/usr/local/tomcat/webapps
+ 1075  mvn clean install -DskipTests
+ 1076  sudo docker cp inventorymgmt-service/target/inventorymgmt.war e6223a5f680f:/usr/local/tomcat/webapps
+ 1077  mvn clean install -DskipTests
+ 1078  sudo docker cp inventorymgmt-service/target/inventorymgmt.war e6223a5f680f:/usr/local/tomcat/webapps
+ 1079  mvn clean install -DskipTests
+ 1080  sudo docker cp inventorymgmt-service/target/inventorymgmt.war e6223a5f680f:/usr/local/tomcat/webapps
+ 1081  mvn clean install -DskipTests
+ 1082  sudo docker cp inventorymgmt-service/target/inventorymgmt.war e6223a5f680f:/usr/local/tomcat/webapps
+ 1083  mvn clean install -DskipTests
+ 1084  sudo docker cp inventorymgmt-service/target/inventorymgmt.war e6223a5f680f:/usr/local/tomcat/webapps
+ 1085  mvn clean install -DskipTests
+ 1086  sudo docker cp inventorymgmt-service/target/inventorymgmt.war e6223a5f680f:/usr/local/tomcat/webapps
+ 1087  mvn clean install -DskipTests
+ 1088  sudo docker cp inventorymgmt-service/target/inventorymgmt.war e6223a5f680f:/usr/local/tomcat/webapps
+ 1089  mvn clean install -DskipTests
+ 1090  sudo docker cp inventorymgmt-service/target/inventorymgmt.war e6223a5f680f:/usr/local/tomcat/webapps
+ 1091  mvn clean install -DskipTests
+ 1092  sudo docker cp inventorymgmt-service/target/inventorymgmt.war e6223a5f680f:/usr/local/tomcat/webapps
+ 1093  mvn clean install -DskipTests
+ 1094  sudo docker cp inventorymgmt-service/target/inventorymgmt.war e6223a5f680f:/usr/local/tomcat/webapps
+ 1095  mvn clean install -DskipTests
+ 1096  sudo docker cp inventorymgmt-service/target/inventorymgmt.war e6223a5f680f:/usr/local/tomcat/webapps
+ 1097  git status 
+ 1098  git checkout inventorymgmt-client/.settings/org.eclipse.core.resources.prefs inventorymgmt-common/.settings/org.eclipse.core.resources.prefs
+ 1099  git status 
+ 1100  git diff inventorymgmt/src/test/java/com/pubmatic/inventorymgmt/services/impl/GoogleCTAIntegrationServiceImplTest.java
+ 1101  mvn clean install
+ 1102  git status 
+ 1103  git checkout inventorymgmt-client/src/main/resources/jacoco_prev.xml
+ 1104  git status 
+ 1105  git diff
+ 1106  git status 
+ 1107  git add -u
+ 1108  git commit -m"WP-5627: Incorporated code-review comments"
+ 1109  git status 
+ 1110  git push origin google-ob-int-alpha-report 
+ 1111  git status 
+ 1112  git pull origin master
+ 1113  git push origin google-ob-int-alpha-report 
+ 1114  git status 
+ 1115  git checkout -B google-ob-int-alpha-2
+ 1116  git checkout master
+ 1117  git checkout -B google-ob-int-alpha-2
+ 1118  git pull origin google-ob-int-alpha-welcome-email 
+ 1119  git status 
+ 1120  git pull origin google-ob-int-alpha-report 
+ 1121  vi inventorymgmt/src/test/java/com/pubmatic/inventorymgmt/services/impl/GoogleCTAIntegrationEmailHelperTest.java
+ 1122  git status 
+ 1123  mvn clean install
+ 1124  git status 
+ 1125  git checkout inventorymgmt-client/.settings/org.eclipse.core.resources.prefs inventorymgmt-client/src/main/resources/jacoco_prev.xml inventorymgmt-common/.settings/org.eclipse.core.resources.prefs
+ 1126  git status 
+ 1127  git add -u
+ 1128  git commit -m"WP-5627 & WP-5663: Merged welcome-email and integration-status-report branches together"
+ 1129  git status 
+ 1130  git push origin google-ob-int-alpha-2
+ 1131  git log
+ 1132  git status 
+ 1133  git log
+ 1134  mvn clean install -DskipTests
+ 1135  sudo docker cp inventorymgmt-service/target/inventorymgmt.war ef5b32d410a7:/usr/local/tomcat/webapps
+ 1136  sudo docker cp inventorymgmt-service/target/inventorymgmt.war e6223a5f680f:/usr/local/tomcat/webapps
+ 1137  git status 
+ 1138  git add inventorymgmt/src/main/resources/com/pubmatic/inventorymgmt/dao/GoogleCTAPublisherDetailsDAO.xml
+ 1139  git status 
+ 1140  git commit -m"WP-5702: Fixed issue of getting only one record per report"
+ 1141  git push origin google-ob-int-alpha-2
+ 1142  mvn clean install -DskipTests
+ 1143  sudo docker cp inventorymgmt-service/target/inventorymgmt.war e6223a5f680f:/usr/local/tomcat/webapps
+ 1144  git status 
+ 1145  git add inventorymgmt/src/main/resources/com/pubmatic/inventorymgmt/dao/GoogleCTAPublisherDetailsDAO.xml
+ 1146  git status 
+ 1147  git commit -m"WP-5703: Fixed issue of setting 'Inventory Type' with ad_type.display_name instead of ad_type.name"
+ 1148  mvn clean install -DskipTests
+ 1149  mysql -ukdbuser -pKdBuSeR12! -h10.110.210.88 -P30712 KomliAdServer -A
+ 1150  cd ~/Downloads/
+ 1151  sudo apt install ./percona-toolkit_3.2.1-1.bionic_amd64.deb 
+ 1152  sudo apt-get install libdbi-perl libdbd-mysql-perl
+ 1153  sudo apt install fontforge
+ 1154  git status 
+ 1155  mvn clean install -DskipTests
+ 1156  sudo docker cp inventorymgmt-service/target/inventorymgmt.war e6223a5f680f:/usr/local/tomcat/webapps
+ 1157  git status 
+ 1158  git diff inventorymgmt/src/main/resources/com/pubmatic/inventorymgmt/dao/GoogleCTAPublisherDetailsDAO.xml
+ 1159  git add inventorymgmt/src/main/resources/com/pubmatic/inventorymgmt/dao/GoogleCTAPublisherDetailsDAO.xml
+ 1160  git commit --amend -m"WP-5703: Fixed issue of setting 'Inventory Type' with ad_type.display_name instead of ad_type.name"
+ 1161  git log
+ 1162  git push origin google-ob-int-alpha-2
+ 1163  git commit --amend -m"WP-5703: Set 'Inventory Type' with ad_type.display_name, if null fall back to ad_type.name"
+ 1164  git status 
+ 1165  git commit --amend -m"WP-5703: Set 'Inventory Type' with ad_type.display_name, if null fall back to ad_type.name"
+ 1166  git log
+ 1167  git push --force origin google-ob-int-alpha-2
+ 1168  mvn clean install -DskipTests
+ 1169  mvn -T2 clean install -DskipTests
+ 1170  mvn clean install -DskipTests
+ 1171  sudo docker cp inventorymgmt-service/target/inventorymgmt.war e6223a5f680f:/usr/local/tomcat/webapps
+ 1172  git status 
+ 1173  git checkout inventorymgmt-client/.settings/org.eclipse.core.resources.prefs inventorymgmt-common/.settings/org.eclipse.core.resources.prefs
+ 1174  git status 
+ 1175  git diff
+ 1176  git status 
+ 1177  #git commit -m"WP-5703: Set 'Inventory Type' with ad_type.display_name, if null fall back to ad_type.name"
+ 1178  git log
+ 1179  #git commit -m"WP-5479: Made legal.team.email.alias empty for 22nd Sept release"
+ 1180  git status 
+ 1181  git diff
+ 1182  git add -u
+ 1183  git status 
+ 1184  git commit -m"WP-5479: Made legal.team.email.alias empty for 22nd Sept release"
+ 1185  git pull origin master
+ 1186  git push origin google-ob-int-alpha-2
+ 1187  sudo docker ps
+ 1188  sudo docker ps -a
+ 1189  sudo docker run -p 9551:8080 -p 9651:8000 -e ENVIORNMENT=dev-k8s-sv3 -d docker.pubmatic.com/inventorymgmt-service:1.0.246
+ 1190  sudo docker ps
+ 1191  sudo docker exec -it e6223a5f680f /bin/bash
+ 1192  ll data/
+ 1193  sudo docker ps
+ 1194  sudo docker ps -a
+ 1195  sudo start 16ad51fd588f 6f2003e23215 167322812e09 
+ 1196  sudo dcoker start 16ad51fd588f 6f2003e23215 167322812e09 
+ 1197  sudo docker start 16ad51fd588f 6f2003e23215 167322812e09 
+ 1198  sudo docker ps
+ 1199  docker run -d --link master:master --volumes-from spark-datastore brunocf/spark-slave
+ 1200  sudo docker run -d --link master:master --volumes-from spark-datastore brunocf/spark-slave
+ 1201  sudo docker ps
+ 1202  sudo docker kill fc4056b56adb c0ab23254a4c d8f113bd9e94
+ 1203  sudo docker ps
+ 1204  mysql -uroot -p -P 3306 KomliAdServer -A
+ 1205  mysql -uroot -P 3306 KomliAdServer -A
+ 1206  mysql -uroot -Proot 3306 KomliAdServer -A
+ 1207  mysql -uroot -P 3306 KomliAdServer -A
+ 1208  mysql -uroot -proot -P 3306 KomliAdServer -A
+ 1209  mysql -uroot -proot -P 3306
+ 1210  mysql -uroot -p -P 3306
+ 1211  mysql -uroot -P 3306
+ 1212  sudo docker exec -it 027a08b9a849 /bin/bash
+ 1213  sudo docker kill 027a08b9a849
+ 1214  sudo docker exec -it 027a08b9a849 /bin/bash
+ 1215  mysql -uroot -proot -P 3306 KomliAdServer -A
+ 1216  vi /var/run/mysqld/mysqld.sock
+ 1217  sudo docker kill 027a08b9a849
+ 1218  sudo docker rm 027a08b9a849
+ 1219  sudo docker ps
+ 1220  sudo docker kill 98ab1406484e
+ 1221  sudo docker rm 98ab1406484e
+ 1222  mysql -ukdbuser -pKdBuSeR12! -h10.110.210.88 -P30712 KomliAdServer -A
+ 1223  fg
+ 1224  ps -ef | grep 88
+ 1225  ps -ef | grep "I have meeting from 4-5"
+ 1226  ps -ef | grep "-h10.110.210.88"
+ 1227  ps -ef | grep -E "-h10.*110.*210.*88"
+ 1228  ps -ef | grep -E "h10.*110.*210.*88"
+ 1229  kill -9 4360
+ 1230  mysql -ukdbuser -pKdBuSeR12! -h10.110.210.88 -P30712 KomliAdServer -A
+ 1231  mysql -ukdbuser -pKdBuSeR12! -h10.100.192.51 -P3306 KomliAdServer -A
+ 1232  curl --request GET 'http://apps.pubmatic.com/v1/inventorymgmt/googleCTAReport' --header 'PubToken: 13460a0f12be492fb33297be1a966217'
+ 1233  curl --location --request GET 'http://apps.pubmatic.com/v1/inventorymgmt/googleCTAReport' --header 'PubToken: 13460a0f12be492fb33297be1a966217'
+ 1234  clear
+ 1235  #sudo docker run --name mysql -e ALLOW_EMPTY_PASSWORD=yes bitnami/mysql:latest
+ 1236  sudo docker ps
+ 1237  sudo docker kill e6223a5f680f 
+ 1238  sudo docker ps -a
+ 1239  sudo docker ps -a | grep exited
+ 1240  sudo docker ps -a | grep Exited
+ 1241  sudo docker ps -a | grep Exited | grep -v 16ad51fd588f
+ 1242  sudo docker image 
+ 1243  sudo docker ps -a | grep Exited | grep -v 16ad51fd588f
+ 1244  sudo docker ps -a | grep Exited | grep -v 16ad51fd588f | cut -d"        "
+ 1245  sudo docker ps -a | grep Exited | grep -v 16ad51fd588f | cut -d"\t"
+ 1246  sudo docker ps -a | grep Exited | grep -v 16ad51fd588f | cut -d'\t'
+ 1247  sudo docker ps -a | grep Exited | grep -v 16ad51fd588f | cut -d' '
+ 1248  sudo docker ps -a | grep Exited | grep -v 16ad51fd588f | cut -d" "
+ 1249  sudo docker ps -a | grep Exited | grep -v 16ad51fd588f | awk -F'        ' '{print $1}'
+ 1250  sudo docker image rm d8f113bd9e94 c0ab23254a4c fc4056b56adb e6223a5f680f 98eaff43be8a d4d459891d87 ef5b32d410a7 063aee8f7cdb 277d20766e30 7f18866723cd ebaa34ba3ef8 a98187669086 159faa3fdd3f 06d92dae3dae e73326917e90 ad8f473a28f0 aae2cb848b53 aa9eb85f6a46 566a880bab08 b822e362fbb4 9b9f54157ec3 d5150ec90bcc b77420f8148d 6b330fe77430 ef03730f1f66 f4a6248fe702 deeea17e76db 8471adeffad3 d9d60cd498f5 168d64ec0fb1 46e2e346aa0a 72b36a7ed3d6 d85a17eba5e0
+ 1251  sudo docker rm d8f113bd9e94 c0ab23254a4c fc4056b56adb e6223a5f680f 98eaff43be8a d4d459891d87 ef5b32d410a7 063aee8f7cdb 277d20766e30 7f18866723cd ebaa34ba3ef8 a98187669086 159faa3fdd3f 06d92dae3dae e73326917e90 ad8f473a28f0 aae2cb848b53 aa9eb85f6a46 566a880bab08 b822e362fbb4 9b9f54157ec3 d5150ec90bcc b77420f8148d 6b330fe77430 ef03730f1f66 f4a6248fe702 deeea17e76db 8471adeffad3 d9d60cd498f5 168d64ec0fb1 46e2e346aa0a 72b36a7ed3d6 d85a17eba5e0
+ 1252  sudo docker ps -a | grep Exited | grep -v 16ad51fd588f | cut -d" "
+ 1253  sudo docker ps -a | grep Exited | grep -v 16ad51fd588f | awk -F'        ' '{print $1}'
+ 1254  sudo docker ps -a
+ 1255  sudo docker run --name mysql -e ALLOW_EMPTY_PASSWORD=yes bitnami/mysql:latest
+ 1256  sudo docker start 027a08b9a849
+ 1257  sudo docker run --name mysql -e MYSQL_ROOT_PASSWORD=password123 bitnami/mysql:latest
+ 1258  cd ~/LEARN/cv-parse/
+ 1259  jupyter notebook
+ 1260  pt-archiver --help
+ 1261  mysql -ukdbuser -pKdBuSeR12! -h10.110.210.88 -P30712 KomliAdServer -A
+ 1262  mysqldump -ukdbuser -pKdBuSeR12! -h10.110.210.88 -P30712 KomliAdServer google_cta_publisher, google_cta_publisher_domain, google_cta_publisher_ads_txt, google_cta_publisher_geo_mapping > ~/google_cta_88_bkp.sql
+ 1263  history | grep mysqldump
+ 1264  mysqldump -ukdbuser -pKdBuSeR12! -h10.110.210.88 -P30712 KomliAdServer google_cta_publisher google_cta_publisher_domain google_cta_publisher_ads_txt google_cta_publisher_geo_mapping > ~/google_cta_88_bkp.sql
+ 1265  mysql -ukdbuser -pKdBuSeR12! -h10.110.210.88 -P30712 KomliAdServer < ~/google_cta_88_bkp.sql
+ 1266  mysql -ukdbuser -pKdBuSeR12! -h10.110.210.104 -P30306 KomliAdServer < ~/google_cta_88_bkp.sql
+ 1267  mysql -ukdbuser -pKdBuSeR12! -h10.110.210.104 -P30306 KomliAdServer -A
+ 1268  mysql -ukdbuser -pKdBuSeR12! -h10.110.210.88 -P30712 KomliAdServer < ~/google_cta_88_bkp.sql
+ 1269  ps -ef | grep mysql
+ 1270  kill -9 9489
+ 1271  mysql -ukdbuser -pKdBuSeR12! -h10.110.210.88 -P30712 KomliAdServer -A
+ 1272  mysql -ukdbuser -pKdBuSeR12! -h10.110.210.88 -P30712 KomliAdServer < ~/google_cta_88_bkp.sql
+ 1273  mysql -ukdbuser -pKdBuSeR12! -h10.110.210.88 -P30712 KomliAdServer -A
+ 1274  mysql -ukdbuser -pKdBuSeR12! -h10.110.210.104 -P30306 KomliAdServer -A
+ 1275  ps -ef | grep 104
+ 1276  ps -ef | grep kdbuser
+ 1277  kill -9 24491
+ 1278  mysql -ukdbuser -pKdBuSeR12! -h10.110.210.104 -P30306 KomliAdServer -A
+ 1279  mysql -ukdbuser -pKdBuSeR12! -h10.110.210.88 -P30712 KomliAdServer -A
+ 1280  mysql -ukdbuser -pKdBuSeR12! -h10.110.198.185 -P 3306 KomliAdServer -A
+ 1281  mysql -ukdbuser -pKdBuSeR12! -h10.110.210.104 -P30306 KomliAdServer -A
+ 1282  exit
+ 1283  mysql -ukdbuser -pKdBuSeR12! -h10.110.210.103 -P30306 KomliAdServer -A
+ 1284  mysql -ukdbuser -pKdBuSeR12! -h10.110.210.88 -P30712 KomliAdServer -A
+ 1285  npm install date-fns
+ 1286  npm install firebase
+ 1287  sudo npm run serve
+ 1288  npm run serve
+ 1289  vi /home/dwaipayan/.npm/_logs/2020-09-25T20_44_40_356Z-debug.log
+ 1290  npm run serve
+ 1291  cd ~/CODEREPO/
+ 1292  mkdir oct-release
+ 1293  cd oct-release/
+ 1294  git clone git@git.pubmatic.com:PubMatic/KomliAdServer.git --branch ci
+ 1295  cd KomliAdServer/
+ 1296  git pull origin ortb-template-update-eb-video
+ 1297  vi KomliAdServer_changesets_2020.sql
+ 1298  git status 
+ 1299  vi KomliAdServer_changesets_2020.sql
+ 1300  git status 
+ 1301  vi KomliAdServer_changesets_2020.sql
+ 1302  git commit -m"WP-4999 | WP-5001 | WP-5332: Consolidated changes"
+ 1303  git status 
+ 1304  git add KomliAdServer_changesets_2020.sql
+ 1305  git commit -m"WP-4999 | WP-5001 | WP-5332: Consolidated changes"
+ 1306  vi KomliAdServer_changesets_2020.sql
+ 1307  gedit KomliAdServer_changesets_2020.sql
+ 1308  git status 
+ 1309  git checkout master
+ 1310  git fetch
+ 1311  git log
+ 1312  vi KomliAdServer_changesets_2020.sql 
+ 1313  git commit -m"WP-4999 | WP-5001 | WP-5332: Consolidated changes"
+ 1314  git diff
+ 1315  git status 
+ 1316  git add -u
+ 1317  git status 
+ 1318  git commit -m"WP-4999 | WP-5001 | WP-5332: Consolidated changes"
+ 1319  vi KomliAdServer_changesets_2020.sql 
+ 1320  git status 
+ 1321  git checkout -B oct-release
+ 1322  git log
+ 1323  git pull origin wp-5002
+ 1324  vi KomliAdServer_changesets_2020.sql 
+ 1325  git status 
+ 1326  git add -u
+ 1327  git commit -m"WP-5002: Updated default value for publisher_pixel_syncup_count to 10"
+ 1328  vi KomliAdServer_changesets_2020.sql 
+ 1329  git log
+ 1330  git status 
+ 1331  git pull origin WP-5386
+ 1332  vi KomliAdServer_changesets_2020.sql 
+ 1333  git commit -m"WP-5386 : Added new O-RTB Wrapper Support - Zeus"
+ 1334  git add -u
+ 1335  git commit -m"WP-5386 |  : Added new O-RTB Wrapper Support - Zeus"
+ 1336  vi KomliAdServer_changesets_2020.sql 
+ 1337  git commit -m"WP-5386 : Updated Zeus templates to set dont_send_winning_deal = 0 to be in sync with Prebid"
+ 1338  git commit -m"WP-5386 | WP-5332 : Updated Zeus templates to set dont_send_winning_deal = 0 to be in sync with Prebid"
+ 1339  git diff
+ 1340  git add -u
+ 1341  git status 
+ 1342  git commit -m"WP-5386 | WP-5332 : Updated Zeus templates to set dont_send_winning_deal = 0 to be in sync with Prebid"
+ 1343  vi KomliAdServer_changesets_2020.sql 
+ 1344  git log
+ 1345  git status 
+ 1346  git push origin oct-release 
+ 1347  git pull origin billing-jsp-revamp
+ 1348  vi KomliAdServer_changesets_2020.sql 
+ 1349  git reset --keep HEAD@{1}
+ 1350  git reset --hard HEAD~1
+ 1351  git status 
+ 1352  git log
+ 1353  cd ..
+ 1354  rm -rf KomliAdServer/
+ 1355  git clone git@git.pubmatic.com:PubMatic/KomliAdServer.git --branch oct-release
+ 1356  cd KomliAdServer/
+ 1357  git log
+ 1358  vi KomliAdServer_changesets_2020.sql 
+ 1359  gedit KomliAdServer_changesets_2020.sql 
+ 1360  git diff KomliAdServer_changesets_2020.sql 
+ 1361  git add -u
+ 1362  git commit -m"oct-release: Removed existing conflicts"
+ 1363  git push origin oct-release 
+ 1364  git status 
+ 1365  git pull origin billing-jsp-revamp
+ 1366  vi KomliAdServer_changesets_2020.sql 
+ 1367  git diff KomliAdServer_changesets_2020.sql 
+ 1368  git status 
+ 1369  git add -u
+ 1370  git status 
+ 1371  git commit -m"oct-release: Merged billing-jsp-revamp branch"
+ 1372  git push origin oct-release 
+ 1373  cd ~/CODEREPO/ci/KomliAdServer/
+ 1374  git status 
+ 1375  git pull origin ci
+ 1376  git pull origin oct-release
+ 1377  git checkout -B oct-release-ci
+ 1378  vi KomliAdServer_changesets_2020.sql
+ 1379  git checkout -B oct-release-ci
+ 1380  git status 
+ 1381  git diff
+ 1382  git add -u
+ 1383  git checkout -B oct-release-ci
+ 1384  git status 
+ 1385  git commit -m"oct-release-ci: Consolidated changes"
+ 1386  git push origin oct-release-ci 
+ 1387  vi KomliAdServer_changesets_2020.sql
+ 1388  cd ../api-infrastructure/
+ 1389  git status 
+ 1390  git pull origin ci
+ 1391  git log
+ 1392  git status 
+ 1393  git checkout -B WP-5707-google-cta-report-ci
+ 1394  git pull origin WP-5707-google-cta-report
+ 1395  vi (base) dwaipayan@dwaipayan-ThinkPad-L480:~/CODEREPO/ci/api-infrastructure$ git pull origin WP-5707-google-cta-report
+ 1396  warning: Pulling without specifying how to reconcile divergent branches is
+ 1397  discouraged. You can squelch this message by running one of the following
+ 1398  commands sometime before your next pull:
+ 1399  You can replace "git config" with "git config --global" to set a default
+ 1400  preference for all repositories. You can also pass --rebase, --no-rebase,
+ 1401  or --ff-only on the command line to override the configured default per
+ 1402  invocation.
+ 1403  remote: Enumerating objects: 89, done.
+ 1404  remote: Counting objects: 100% (89/89), done.
+ 1405  remote: Compressing objects: 100% (43/43), done.
+ 1406  remote: Total 105 (delta 40), reused 71 (delta 35), pack-reused 16
+ 1407  Receiving objects: 100% (105/105), 51.27 KiB | 184.00 KiB/s, done.
+ 1408  Resolving deltas: 100% (40/40), completed with 12 local objects.
+ 1409  From git.pubmatic.com:PubMatic/api-infrastructure
+ 1410  Auto-merging pom.xml
+ 1411  Auto-merging infrastructure/src/test/java/com/pubmatic/infrastructure/process/service/EmailServiceTest.java
+ 1412  Auto-merging infrastructure/src/test/java/com/pubmatic/infrastructure/bulkoperation/builder/test/PubMaticEntityObjectBuilderTest.java
+ 1413  CONFLICT (content): Merge conflict in infrastructure/src/test/java/com/pubmatic/infrastructure/bulkoperation/builder/test/PubMaticEntityObjectBuilderTest.java
+ 1414  Auto-merging infrastructure/src/test/java/com/pubmatic/infrastructure/bulkoperation/builder/test/PubMaticEntityCsvBuilderTest.java
+ 1415  CONFLICT (content): Merge conflict in infrastructure/src/test/java/com/pubmatic/infrastructure/bulkoperation/builder/test/PubMaticEntityCsvBuilderTest.java
+ 1416  Auto-merging infrastructure/src/main/resources/resource-details.properties
+ 1417  vi infrastructure/src/test/java/com/pubmatic/infrastructure/bulkoperation/builder/test/PubMaticEntityObjectBuilderTest.java
+ 1418  mvn clean install
+ 1419  git status 
+ 1420  git add -u
+ 1421  git status 
+ 1422  git commit
+ 1423  git status 
+ 1424  git log
+ 1425  git push origin WP-5707-google-cta-report-ci
+ 1426  cd ~/CODEREPO/
+ 1427  mkdir core-dev
+ 1428  cd core-dev/
+ 1429  git clone git@git.pubmatic.com:PubMatic/pub-api-inventorymgmt.git --branch core-dev
+ 1430  git clone git@git.pubmatic.com:PubMatic/KomliAdServer.git --branch core-dev
+ 1431  cd KomliAdServer/
+ 1432  git pull origin oct-release
+ 1433  vi KomliAdServer_changesets_2020.sql 
+ 1434  git status 
+ 1435  git add -u
+ 1436  git commit -m"oct-release: Consolidated changes"
+ 1437  git status 
+ 1438  git push origin core-dev 
+ 1439  vi pom.xml
+ 1440  git add -u
+ 1441  git commit --amend -m"oct-release: Consolidated changes"
+ 1442  git push --force origin core-dev 
+ 1443  #amend: modify existing commit
+ 1444  mvn clean install -DskipTests
+ 1445  git status 
+ 1446  cd ~/CODEREPO/google-ob-int-alpha/pub-api-inventorymgmt/
+ 1447  git status 
+ 1448  git checkout master
+ 1449  git fetch
+ 1450  git checkout master
+ 1451  cd ..
+ 1452  rm -rf pub-api-inventorymgmt/
+ 1453  git clone git@git.pubmatic.com:PubMatic/pub-api-inventorymgmt.git
+ 1454  cd pub-api-inventorymgmt/
+ 1455  git status 
+ 1456  git checkout -B WP-5707-google-cta-report
+ 1457  mvn clean install -DskipTests
+ 1458  sudo docker cp inventorymgmt-service/target/inventorymgmt.war d113dc410135:/usr/local/tomcat/webapps
+ 1459  mvn clean install -DskipTests
+ 1460  sudo docker cp inventorymgmt-service/target/inventorymgmt.war d113dc410135:/usr/local/tomcat/webapps
+ 1461  git status 
+ 1462  git commit -m"WP-5707: Changed reporting by modification_time from creation_time and show only COMPLETE and REJECTED publishers"
+ 1463  git checkout inventorymgmt-client/.settings/org.eclipse.core.resources.prefs inventorymgmt-common/.settings/org.eclipse.core.resources.prefs
+ 1464  git status 
+ 1465  git diff
+ 1466  git add -u
+ 1467  git status 
+ 1468  git commit -m"WP-5707: Changed reporting by modification_time from creation_time and show only COMPLETE and REJECTED publishers"
+ 1469  git push origin WP-5707-google-cta-report
+ 1470  git status 
+ 1471  git diff
+ 1472  git add -u
+ 1473  git commit -m"WP-5707: Added replacement of Click-to-Accept Integration with Open Bidding online onboarding"
+ 1474  git status 
+ 1475  git push origin WP-5707-google-cta-report
+ 1476  git log
+ 1477  git status 
+ 1478  git diff
+ 1479  git commit -m"WP-5762: Removed CTA from contract file-name"
+ 1480  git add -u
+ 1481  git status 
+ 1482  git commit -m"WP-5762: Removed CTA from contract file-name"
+ 1483  git push origin WP-5707-google-cta-report
+ 1484  cd ..
+ 1485  git clone git@git.pubmatic.com:PubMatic/api-infrastructure.git
+ 1486  cd api-infrastructure/
+ 1487  git checkout -B WP-5707-google-cta-report
+ 1488  mvn clean install -DskipTests
+ 1489  git status 
+ 1490  git diff
+ 1491  mvn clean install
+ 1492  git status 
+ 1493  git add -u
+ 1494  git status 
+ 1495  git commit -m"WP-5707: Replaced _CTA_OB with _OB"
+ 1496  git push origin WP-5707-google-cta-report
+ 1497  git commit --amend -m"WP-5762: Replaced _CTA_OB with _OB"
+ 1498  git log
+ 1499  git push --force origin WP-5707-google-cta-report
+ 1500  sudo docker ps
+ 1501  docker run -p 9551:8080 -p 9651:8000 -e ENVIORNMENT=dev-k8s-sv3 -d docker.pubmatic.com/inventorymgmt-service:1.0.249
+ 1502  sudo docker run -p 9551:8080 -p 9651:8000 -e ENVIORNMENT=dev-k8s-sv3 -d docker.pubmatic.com/inventorymgmt-service:1.0.249
+ 1503  sudo docker ps
+ 1504  sudo docker exec -it d113dc410135 /bin/bash
+ 1505  mysql --user rfamro --host mysql-rfam-public.ebi.ac.uk --port 4497 --database Rfam
+ 1506  mysql --user rfamro --host mysql-rfam-public.ebi.ac.uk --port 4497 --database Rfam -A
+ 1507  cd ~/LEARN/net-ninja-vuetify/todo-ninja/
+ 1508  ll
+ 1509  npm run serve
+ 1510  echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p
+ 1511  cd ~/Downloads/
+ 1512  sudo apt install ./PomoDoneApp_1.5.1545_amd64.deb 
+ 1513  sudo apt install inkscape scribus
+ 1514  mysql -ukdbuser -pKdBuSeR12! -h10.110.210.103 -P30306 KomliAdServer -A
+ 1515  mysql -ukdbuser -pKdBuSeR12! -h10.110.198.185 -P 3306 KomliAdServer -A
+ 1516  mysql -ukdbuser -pKdBuSeR12! -h10.110.210.103 -P30306 KomliAdServer -A
+ 1517  mysql -ukdbuser -pKdBuSeR12! -h10.110.210.88 -P30712 KomliAdServer -A
+ 1518  mysql -ukdbuser -pKdBuSeR12! -h10.110.210.103 -P30306 KomliAdServer -A
+ 1519  exit
+ 1520  sudo -s
+ 1521  exit
+ 1522  cd ~/Downloads/
+ 1523  wget https://vscode-update.azurewebsites.net/latest/linux-deb-x64/stable -O /tmp/code_latest_amd64.deb
+ 1524  sudo dpkg -i /tmp/code_latest_amd64.deb
+ 1525  npm i @syncfusion/ej2-vue-grids
+ 1526  cd ..
+ 1527  npm i @syncfusion/ej2-vue-grids
+ 1528  npm run serve
+ 1529  ll
+ 1530  chmod 777 deployment.sh 
+ 1531  ll
+ 1532  vi KomliAdServer/KomliAdServer_changesets_2020.sql 
+ 1533  ./deployment.sh 10.110.210.103 30306 kdbuser KdBuSeR12! dryrun
+ 1534  vi KomliAdServer/KomliAdServer_changesets_2020.sql 
+ 1535  ll
+ 1536  ll db/
+ 1537  ll db/KomliAdServer/
+ 1538  vi KomliAdServer_changesets_2020.sql 
+ 1539  cd db/KomliAdServer/
+ 1540  vi KomliAdServer_changesets_2020.sql 
+ 1541  cd ../..
+ 1542  ./deployment.sh 10.110.210.103 30306 kdbuser KdBuSeR12! update
+ 1543  cd ../oct-release/
+ 1544  git status 
+ 1545  ll
+ 1546  cd ko
+ 1547  cd KomliAdServer/
+ 1548  git status 
+ 1549  git pull origin oct-release 
+ 1550  vi KomliAdServer_changesets_2020.sql 
+ 1551  git status 
+ 1552  git commit -m"WP-5754: Auto-enable video params for Zeus"
+ 1553  git diff
+ 1554  git add -u
+ 1555  git status 
+ 1556  git commit -m"WP-5754: Auto-enable video params for Zeus"
+ 1557  git push origin oct-release 
+ 1558  vi KomliAdServer_changesets_2020.sql 
+ 1559  git diff
+ 1560  git status 
+ 1561  git add -u
+ 1562  git commit --amend -m"WP-5754: Auto-enable video params for Zeus"
+ 1563  git push --force origin oct-release 
+ 1564  cd ~/CODEREPO/ci/KomliAdServer/
+ 1565  git status 
+ 1566  git pull origin oct-release-ci 
+ 1567  git pull origin ci
+ 1568  vi KomliAdServer_changesets_2020.sql
+ 1569  git status 
+ 1570  vi KomliAdServer_changesets_2020.sql
+ 1571  git diff
+ 1572  git commit
+ 1573  git status 
+ 1574  git add -u
+ 1575  git commit
+ 1576  git pull origin oct-release
+ 1577  vi KomliAdServer_changesets_2020.sql
+ 1578  git status 
+ 1579  git diff
+ 1580  git status 
+ 1581  git add -u
+ 1582  git status 
+ 1583  git commit
+ 1584  git push origin oct-release-ci 
+ 1585  git status 
+ 1586  git pull origin oct-release
+ 1587  vi KomliAdServer_changesets_2020.sql
+ 1588  git diff
+ 1589  git status 
+ 1590  git add -u
+ 1591  git commit
+ 1592  git push origin oct-release-ci 
+ 1593  cd ~/CODEREPO/google-ob-int-alpha/
+ 1594  vi getGoogleCtaReport.sh
+ 1595  git clone git@git.pubmatic.com:PubMatic/core-platform-scripts.git
+ 1596  vi getGoogleCtaReport.sh
+ 1597  cp getGoogleCtaReport.sh core-platform-scripts/google_ob_scripts/scripts/
+ 1598  cd core-platform-scripts/
+ 1599  git checkout -B WP-5707-google-cta-report
+ 1600  ll google_ob_scripts/
+ 1601  ll google_ob_scripts/scripts/
+ 1602  git status 
+ 1603  git add google_ob_scripts/scripts/getGoogleCtaReport.sh
+ 1604  git commit -m"WP-5707: Added Google CTA report shell script"
+ 1605  git status 
+ 1606  git push origin WP-5707-google-cta-report 
+ 1607  git status 
+ 1608  cd google_ob_scripts/scripts/
+ 1609  gedit getGoogleCtaReport.sh 
+ 1610  sh getGoogleCtaReport.sh 
+ 1611  cd ~/CODEREPO/google-ob-int-alpha/pub-api-inventorymgmt/
+ 1612  git status 
+ 1613  git pull origin master
+ 1614  cd ..
+ 1615  rm -rf pub-api-inventorymgmt/
+ 1616  git clone git@git.pubmatic.com:PubMatic/pub-api-inventorymgmt.git
+ 1617  cd pub-api-inventorymgmt/
+ 1618  mvn clean install -DskipTests
+ 1619  sudo docker cp inventorymgmt-service/target/inventorymgmt.war d113dc410135:/usr/local/tomcat/webapps
+ 1620  sudo docker ps
+ 1621  sudo docker cp inventorymgmt-service/target/inventorymgmt.war 3d472ab6f860:/usr/local/tomcat/webapps
+ 1622  vi app-resources/app-resources-qaint-k8s-sv3.yml
+ 1623  vi app-resources/app-resources-prod-k8s-sfo.yml 
+ 1624  git diff
+ 1625  git checkout -B google-cta-email-props
+ 1626  git status 
+ 1627  git add -u
+ 1628  git status 
+ 1629  git commit -m"WP-5479: Changed the email properties as per live setup"
+ 1630  git status 
+ 1631  git push origin google-cta-email-props 
+ 1632  vi app-resources/app-resources-qaint-k8s-sv3.yml
+ 1633  cd ~/CODEREPO/billingrevamp/pub-api-inventorymgmt/
+ 1634  git pull origin billingrevamp 
+ 1635  git status 
+ 1636  git log
+ 1637  git checkout -B billingrevamp-bug-fixes
+ 1638  mvn clean install -DskipTests
+ 1639  mvn -T 1C clean install -DskipTests
+ 1640  mvn -T 4 clean install -DskipTests
+ 1641  sudo docker cp inventorymgmt-service/target/inventorymgmt.war 3d472ab6f860:/usr/local/tomcat/webapps
+ 1642  mvn -T 4 clean install
+ 1643  git status 
+ 1644  git diff inventorymgmt-common/src/main/java/com/pubmatic/inventorymgmt/common/bean/PublisherBillingDetails.java
+ 1645  git add inventorymgmt-common/src/main/java/com/pubmatic/inventorymgmt/common/bean/PublisherBillingDetails.java
+ 1646  git status 
+ 1647  git commit -m"WP-5798: Corrected spelling mistake in 'Biiling Type'"
+ 1648  git status 
+ 1649  git checkout -B billingrevamp-WP-5798-fix
+ 1650  git status 
+ 1651  git log
+ 1652  git pull origin billingrevamp 
+ 1653  git push origin billingrevamp-WP-5798-fix 
+ 1654  cd todo-syncfunction/
+ 1655  npm install --save @vue/vuetify
+ 1656  npm install --save @vuetify
+ 1657  npm i vuetify
+ 1658  cd todo-syncfunction/
+ 1659  npm run serve
+ 1660  npm install --save @/fb date-fns/format
+ 1661  npm install --save firebase date-fns/format
+ 1662  npm install --save firebase date-fns
+ 1663  npm run serve
+ 1664  cd todo-syncfunction/
+ 1665  npm i @syncfusion/ej2-material-theme --save
+ 1666  cd todo-syncfunction/
+ 1667  npm run serve
+ 1668  cd ~/CODEREPO/
+ 1669  mkdir percona
+ 1670  cd db-archival/
+ 1671  pt-archiver --help
+ 1672  pt-archiver --source h=10.110.198.185,P=3306,D=KomliAdServer,t=google_cta_publisher,u=kdbuser,p=KdBuSeR12! --where "creation_time > now() - interval 4 day" --dest h=10.110.210.88,P=30712,D=KomliAdServer,t=google_cta_publisher_bkp_210920,u=kdbuser,p=KdBuSeR12! --limit 1000 --txn-size 1000 --statistics --no-check-charset
+ 1673  pt-online-schema-change --help
+ 1674  pt-archiver --source h=10.110.210.88,P=30712,D=KomliAdServer,t=google_cta_publisher_bkp_210920,u=kdbuser,p=KdBuSeR12! --where "creation_time > now() - interval 4 day" --dest h=10.110.210.88,P=30712,D=KomliAdServer,t=google_cta_publisher_bkp_210920_bkp,u=kdbuser,p=KdBuSeR12! --limit 1000 --txn-size 1000 --statistics --no-check-charset
+ 1675  pt-archiver --source h=10.110.210.88,P=30712,D=KomliAdServer,t=google_cta_publisher_bkp,u=kdbuser,p=KdBuSeR12! --where "creation_time > now() - interval 4 day" --dest h=10.110.210.88,P=30712,D=KomliAdServer,t=google_cta_publisher_bkp_210920_bkp,u=kdbuser,p=KdBuSeR12! --limit 1000 --txn-size 1000 --statistics --no-check-charset
+ 1676  pt-archiver --source h=10.110.210.88,P=30712,D=KomliAdServer,t=google_cta_publisher_domain_bkp,u=kdbuser,p=KdBuSeR12! --where "creation_time > now() - interval 4 day" --dest h=10.110.210.88,P=30712,D=KomliAdServer,t=google_cta_publisher_domain_bkp_210920,u=kdbuser,p=KdBuSeR12! --limit 1000 --txn-size 1000 --statistics --no-check-charset
+ 1677  vi archiver.sh
+ 1678  chmod 777 archiver.sh 
+ 1679  ./archiver.sh purge
+ 1680  vi archiver.sh
+ 1681  ./archiver.sh purge
+ 1682  vi archiver.sh
+ 1683  ./archiver.sh purge
+ 1684  vi archiver.sh
+ 1685  ./archiver.sh purge
+ 1686  vi archiver.sh
+ 1687  ./archiver.sh purge
+ 1688  vi archiver.sh
+ 1689  ./archiver.sh purge
+ 1690  vi archiver.sh
+ 1691  ./archiver.sh purge
+ 1692  vi archiver.sh
+ 1693  ./archiver.sh purge
+ 1694  vi archiver.sh
+ 1695  vi pt-archiver
+ 1696  which alias pt-archiver
+ 1697  vi /usr/bin/pt-archiver
+ 1698  which alias tar
+ 1699  vi /bin/tar 
+ 1700  ./archiver.sh purge
+ 1701  vi /bin/tar 
+ 1702  vi archiver.sh
+ 1703  ./archiver.sh --arg-one
+ 1704  ./archiver.sh --arg-one hey
+ 1705  vi archiver.sh
+ 1706  ./archiver.sh --arg-one hey
+ 1707  ./archiver.sh --action purge
+ 1708  ./archiver.sh --action archive
+ 1709  vi archiver.sh
+ 1710  ./archiver.sh --action archive
+ 1711  ./archiver.sh --action archive -s-host 10.212.34.1 -d-host 172.16.4.143
+ 1712  ./archiver.sh --action archive --s-host 10.212.34.1 --d-host 172.16.4.143
+ 1713  scp archiver.sh dwaipayan.sen@172.16.4.143:/tmp
+ 1714  vi archiver.sh
+ 1715  scp archiver.sh dwaipayan.sen@172.16.4.143:/tmp
+ 1716  ./archiver.sh --action archive --s-host 10.212.34.1 --d-host 172.16.4.143
+ 1717  vi archiver.sh
+ 1718  ./archiver.sh --action archive --s-host 10.212.34.1 --d-host 172.16.4.143
+ 1719  vi archiver.sh
+ 1720  ./archiver.sh --action archive --s-host 10.212.34.1 --d-host 172.16.4.143
+ 1721  vi archiver.sh
+ 1722  code archiver.sh 
+ 1723  ./archiver.sh --action archive --s-host 10.212.34.1 --d-host 172.16.4.143 -where "id>3"
+ 1724  ./archiver.sh --action archive --s-host 10.212.34.1 --d-host 172.16.4.143 --where "id>3"
+ 1725  ./archiver.sh --action archi --s-host 10.212.34.1 --d-host 172.16.4.143 --where "id>3"
+ 1726  ./archiver.sh --action archive --s-host 10.212.34.1 --d-host 172.16.4.143 --where "id>3"
+ 1727  ./archiver.sh --action archi --s-host 10.212.34.1 --d-host 172.16.4.143 --where "id>3"
+ 1728  ./archiver.sh --action archive --s-host 10.212.34.1 --d-host 172.16.4.143 --where "id>3"
+ 1729  ./archiver.sh --action pur --s-host 10.212.34.1 --d-host 172.16.4.143 --where "id>3"
+ 1730  ./archiver.sh --action purge --s-host 10.212.34.1 --d-host 172.16.4.143 --where "id>3"
+ 1731  ./archiver.sh --action purge --s-host 10.212.34.1 --d-host 172.16.4.143 --s-port 3310 --s-db Komli --s-table abcd --s-uid 89 --s-pwd 1234 --where "id>3"
+ 1732  ./archiver.sh --action purge --s-host 10.212.34.1 --d-host 172.16.4.143 --where "id>3"
+ 1733  ./archiver.sh --action purge --s-host 10.212.34.1 --d-host 172.16.4.143 --s-port 3310 --s-db Komli --s-table abcd --s-uid 89 --s-pwd 1234 --where "id>3"
+ 1734  ./archiver.sh --action purge --s-host 10.212.34.1 --d-host 172.16.4.143 --s-port 3310 --s-db Komli --s-table abcd --s-uid 89 --s-pwd 1234 --where "id > 3"
+ 1735  ./archiver.sh --action p --s-host 10.212.34.1 --d-host 172.16.4.143 --s-port 3310 --s-db Komli --s-table abcd --s-uid 89 --s-pwd 1234 --where "id > 3"
+ 1736  ./archiver.sh --action archive --s-host 10.212.34.1 --d-host 172.16.4.143 --s-port 3310 --s-db Komli --s-table abcd --s-uid 89 --s-pwd 1234 --where "id > 3"
+ 1737  ./archiver.sh --action purge --s-host 10.212.34.1 --d-host 172.16.4.143 --s-port 3310 --s-db Komli --s-table abcd --s-uid 89 --s-pwd 1234 --where "id > 3"
+ 1738  ./archiver.sh --action archive --s-host 10.212.34.1 --d-host 172.16.4.143 --s-port 3310 --s-db Komli --s-table abcd --s-uid 89 --s-pwd 1234 --where "id > 3"
+ 1739  ./archiver.sh --action archive --s-host 10.212.34.1 --s-port 3310 --s-db Komli --s-table abcd --s-uid 89 --s-pwd 1234 --where "id > 3" --d-host 172.16.4.143 --d-port 3310 --d-db Komli --d-table abcd --d-uid 89 --d-pwd 1234
+ 1740  ./archiver.sh --action archive --s-host 10.212.34.1 --s-port 3310 --s-db Komli --s-table abcd --s-uid 89 --s-pwd 1234 --where "id > 3" --d-host 172.16.4.143 --d-port 3310 --d-db Komli --d-table abcd --d-uid 89 --d-pwd 1234 --d-host 172.16.4.144
+ 1741  ./archiver.sh --action archive --s-host 10.212.34.1 --s-port 3310 --s-db Komli --s-table abcd --s-uid 89 --s-pwd 1234 --where "id > 3" --d-host 172.16.4.143 --d-port 3310 --d-db Komli --d-table abcd --d-uid 89 --d-pwd 1234
+ 1742  ./archiver.sh --action archive --s-host 10.110.210.88 --s-port 30712 --s-db KomliAdServer --s-table wrapper_provider_test_bkp --s-uid kdbuser --s-pwd KdBuSeR12! --where "id > 3" --d-host 10.110.210.88 --d-port 30712 --d-db KomliAdServer --d-table wrapper_provider_test --d-uid kdbuser --d-pwd KdBuSeR12!
+ 1743  ./archiver.sh --action purge --s-host 10.110.210.88 --d-host 10.110.210.88 --s-port 30712 --s-db KomliAdServer --s-table wrapper_provider_test --s-uid kdbuser --s-pwd KdBuSeR12! --where "id > 3"
+ 1744  ./archiver.sh --action archive --s-host 10.110.210.88 --s-port 30712 --s-db KomliAdServer --s-table wrapper_provider_test_bkp --s-uid kdbuser --s-pwd KdBuSeR12! --where "id > 3" --d-host 10.110.210.88 --d-port 30712 --d-db KomliAdServer --d-table wrapper_provider_test --d-uid kdbuser --d-pwd KdBuSeR12!
+ 1745  pt-archiver --source h=10.110.210.88,P=30712,D=KomliAdServer,t=wrapper_provider_test_bkp,u=kdbuser,p=KdBuSeR12! --where "id > 3" --dest h=10.110.210.88,P=30712,D=KomliAdServer,t=wrapper_provider_test,u=kdbuser,p=KdBuSeR12! --limit 1000 --txn-size 1000 --statistics --no-check-charset
+ 1746  ./archiver.sh --action archive --s-host 10.110.210.88 --s-port 30712 --s-db KomliAdServer --s-table wrapper_provider_test_bkp --s-uid kdbuser --s-pwd KdBuSeR12! --where "id between 3 and 5" --d-host 10.110.210.88 --d-port 30712 --d-db KomliAdServer --d-table wrapper_provider_test --d-uid kdbuser --d-pwd KdBuSeR12!
+ 1747  ./archiver.sh --action archive --s-host 10.110.210.88 --s-port 30712 --s-db KomliAdServer --s-table wrapper_provider_test_bkp --s-uid kdbuser --s-pwd KdBuSeR12! --where "id < 3" --d-host 10.110.210.88 --d-port 30712 --d-db KomliAdServer --d-table wrapper_provider_test --d-uid kdbuser --d-pwd KdBuSeR12!
+ 1748  ./archiver.sh --action archive --s-host 10.110.210.88 --s-port 30712 --s-db KomliAdServer --s-table wrapper_provider_test_bkp --s-uid kdbuser --s-pwd KdBuSeR12! --where id between 3 and 5 --d-host 10.110.210.88 --d-port 30712 --d-db KomliAdServer --d-table wrapper_provider_test --d-uid kdbuser --d-pwd KdBuSeR12!
+ 1749  ./archiver.sh --action archive --s-host 10.110.210.88 --s-port 30712 --s-db KomliAdServer --s-table wrapper_provider_test_bkp --s-uid kdbuser --s-pwd KdBuSeR12! --where 'id between 3 and 5' --d-host 10.110.210.88 --d-port 30712 --d-db KomliAdServer --d-table wrapper_provider_test --d-uid kdbuser --d-pwd KdBuSeR12!
+ 1750  ./archiver.sh --action archive --s-host 10.110.210.88 --s-port 30712 --s-db KomliAdServer --s-table wrapper_provider_test_bkp --s-uid kdbuser --s-pwd KdBuSeR12! --where "id between 3 and 5" --d-host 10.110.210.88 --d-port 30712 --d-db KomliAdServer --d-table wrapper_provider_test --d-uid kdbuser --d-pwd KdBuSeR12!
+ 1751  pt-archiver --source h=10.110.210.88,P=30712,D=KomliAdServer,t=wrapper_provider_test_bkp,u=kdbuser,p=KdBuSeR12! --where "id between 3 and 5" --dest h=10.110.210.88,P=30712,D=KomliAdServer,t=wrapper_provider_test,u=kdbuser,p=KdBuSeR12! --limit 1000 --txn-size 1000 --statistics --no-check-charset
+ 1752  ./archiver.sh --action archive --s-host 10.110.210.88 --s-port 30712 --s-db KomliAdServer --s-table wrapper_provider_test --s-uid kdbuser --s-pwd KdBuSeR12! --where "id between 3 and 5" --d-host 10.110.210.88 --d-port 30712 --d-db KomliAdServer --d-table wrapper_provider_test_bkp --d-uid kdbuser --d-pwd KdBuSeR12!
+ 1753  ./archiver.sh --action archive --s-host 10.110.210.88 --s-port 30712 --s-db KomliAdServer --s-table wrapper_provider_test --s-uid kdbuser --s-pwd KdBuSeR12! --where "id\ between\ 3 and\ 5" --d-host 10.110.210.88 --d-port 30712 --d-db KomliAdServer --d-table wrapper_provider_test_bkp --d-uid kdbuser --d-pwd KdBuSeR12!
+ 1754  ./archiver.sh --action archive --s-host 10.110.210.88 --s-port 30712 --s-db KomliAdServer --s-table wrapper_provider_test --s-uid kdbuser --s-pwd KdBuSeR12! --where "id between 3 and 5" --d-host 10.110.210.88 --d-port 30712 --d-db KomliAdServer --d-table wrapper_provider_test_bkp --d-uid kdbuser --d-pwd KdBuSeR12!
+ 1755  pt-archiver --source h=10.110.210.88,P=30712,D=KomliAdServer,t=wrapper_provider_test,u=kdbuser,p=KdBuSeR12! --where "id between 3 and 5" --dest h=10.110.210.88,P=30712,D=KomliAdServer,t=wrapper_provider_test_bkp,u=kdbuser,p=KdBuSeR12! --limit 1000 --txn-size 1000 --statistics --no-check-charset
+ 1756  ssh dwaipayan.sen@10.100.152.36
+ 1757  cd ~/Downloads/
+ 1758  wget 104.36.114.130//openrtb_request_publisher_mapping.sql
+ 1759  getopt --help
+ 1760  getopts --help
+ 1761  ssh dwaipayan.sen@172.16.4.143
+ 1762  cd ~/CODEREPO/db-archival/
+ 1763  scp archiver.sh dwaipayan.sen@172.16.4.143:/tmp
+ 1764  ssh dwaipayan.sen@172.16.4.143
+ 1765  cd ../billingrevamp/
+ 1766  cd pub-api-inventorymgmt/
+ 1767  git status 
+ 1768  git checkout ci
+ 1769  git checkout .
+ 1770  git status 
+ 1771  git checkout ci
+ 1772  git fetch
+ 1773  git pull origin  ci
+ 1774  mvn clean install -DskipTests
+ 1775  #sudo docker cp inventorymgmt-service/target/inventorymgmt.war d113dc410135:/usr/local/tomcat/webapps
+ 1776  sudo docker ps
+ 1777  #sudo docker cp inventorymgmt-service/target/inventorymgmt.war 3d472ab6f860:/usr/local/tomcat/webapps
+ 1778  sudo docker cp inventorymgmt-service/target/inventorymgmt.war 3d472ab6f860:/usr/local/tomcat/webapps
+ 1779  git checkout oct-release 
+ 1780  git pull origin oct-release 
+ 1781  mvn clean install -DskipTests
+ 1782  sudo docker cp inventorymgmt-service/target/inventorymgmt.war 3d472ab6f860:/usr/local/tomcat/webapps
+ 1783  git checkout billingrevamp
+ 1784  git pull origin billingrevamp
+ 1785  mvn clean install -DskipTests
+ 1786  sudo docker cp inventorymgmt-service/target/inventorymgmt.war 3d472ab6f860:/usr/local/tomcat/webapps
+ 1787  cd ~/CODEREPO/ci/pub-api-inventorymgmt/
+ 1788  git status 
+ 1789  git pull origin ci
+ 1790  git checkout -B region-detecting-csv-ci
+ 1791  git pull origin region-detecting-csv
+ 1792  git checkout origin/master -- inventorymgmt-client/src/main/resources/jacoco_prev.xml
+ 1793  git status 
+ 1794  vi inventorymgmt/src/main/java/com/pubmatic/inventorymgmt/constant/Constants.java
+ 1795  git status 
+ 1796  git diff
+ 1797  gedit inventorymgmt/src/main/java/com/pubmatic/inventorymgmt/constant/Constants.java
+ 1798  git status 
+ 1799  git add inventorymgmt/src/main/java/com/pubmatic/inventorymgmt/constant/Constants.java
+ 1800  git status 
+ 1801  git checkout origin/ci -- inventorymgmt-client/src/main/resources/jacoco_prev.xml
+ 1802  cd ..
+ 1803  rm -rf pub-api-inventorymgmt/
+ 1804  git clone git@git.pubmatic.com:PubMatic/pub-api-inventorymgmt.git --branch ci
+ 1805  cd pub-api-inventorymgmt/
+ 1806  git checkout -B region-detecting-csv-ci
+ 1807  git pull origin region-detecting-csv
+ 1808  git status 
+ 1809  git checkout origin/ci -- inventorymgmt-client/src/main/resources/jacoco_prev.xml
+ 1810  git status 
+ 1811  git add inventorymgmt-client/src/main/resources/jacoco_prev.xml
+ 1812  git status 
+ 1813  git diff
+ 1814  git status 
+ 1815  vi inventorymgmt-service/src/test/java/com/pubmatic/inventorymgmt/webservices/PublisherLevelSettingsResourceTest.java
+ 1816  git diff inventorymgmt-service/src/test/java/com/pubmatic/inventorymgmt/webservices/PublisherLevelSettingsResourceTest.java
+ 1817  vi inventorymgmt-service/src/test/java/com/pubmatic/inventorymgmt/webservices/PublisherLevelSettingsResourceTest.java
+ 1818  git status 
+ 1819  vi inventorymgmt/src/main/java/com/pubmatic/inventorymgmt/constant/Constants.java
+ 1820  git diff
+ 1821  git status 
+ 1822  mvn clean install
+ 1823  git status 
+ 1824  git add -u
+ 1825  git status 
+ 1826  git commit -m"WP-4604: Merged region-detecting-csv into region-detecting-csv-ci"
+ 1827  git push origin region-detecting-csv-ci
+ 1828  mvn clean install
+ 1829  mvn clean install
+ 1830  git status 
+ 1831  git checkout inventorymgmt-client/.settings/org.eclipse.core.resources.prefs
+ 1832  git status 
+ 1833  git diff
+ 1834  git status 
+ 1835  git diff
+ 1836  git commit --amend -m"WP-4604: Merged region-detecting-csv into region-detecting-csv-ci"
+ 1837  git status 
+ 1838  git add -u
+ 1839  git status 
+ 1840  git commit --amend -m"WP-4604: Merged region-detecting-csv into region-detecting-csv-ci"
+ 1841  git log
+ 1842  git status 
+ 1843  git push origin region-detecting-csv-ci
+ 1844  git push --force origin region-detecting-csv-ci
+ 1845  mysql -ukdbuser -pKdBuSeR12! -h10.110.210.103 -P30306 KomliAdServer -A
+ 1846  mysql -ukdbuser -pKdBuSeR12! -h10.110.198.185 -P 3306 KomliAdServer -A
+ 1847  sudo docker ps
+ 1848  wget 104.36.114.130//openrtb_request_publisher_mapping.sql
+ 1849  wget 104.36.114.130//google_cta_publisher.sql
+ 1850  wget 104.36.114.130//google_cta_publisher_geo_mapping.sql
+ 1851  wget 104.36.114.130//google_cta_publisher_domain.sql
+ 1852  wget 104.36.114.130//google_cta_publisher_ads_txt.sql
+ 1853  cd ~/Downloads/
+ 1854  wget https://r3---sn-h5576nee.c.youtube.com/videoplayback?title=Bhabam%2520Hajaam&sig=AOq0QJ8wRQIgDXv7T5tcfQbv0TTNYUtJy29pEpulm3UV9je2uHxYodQCIQD3C2t98S1ziyA2IGhM8fHhVyw7lVjfqI_6czU5Otqbfg%3D%3D&id=9af2507cdb4781d6&expire=1602765628&cp=U0tPR1dRU19HUkNROV9PS1dHOmctYTNpSE1tUmRSVkpLVGFSUU95emNiN0JyeUY5cTI3N3pnYXVlcTlzR1M&source=youtube&ei=3O6HX7HBOubljATm6IfACQ&ip=43.252.251.81&sparams=expire%2Cei%2Cip%2Ccp%2Cclient%2Cid%2Cipbits%2Citag%2Cratebypass%2Csource&ipbits=0&itag=22&client=youtube-download&ratebypass=yes&cms_redirect=yes&mh=n3&mm=32&mn=sn-h5576nee&ms=su&mt=1602743906&mv=m&mvi=3&pl=22&lsparams=mh,mm,mn,ms,mv,mvi,pl&lsig=AG3C_xAwRgIhAKtQYNAZPCrdjHyxTdm_6qkQA7DOduetaez_TAEDmVBrAiEApacklTfUC-TZrTLSPiAxFeHdHH5SmKIEjL-vmYXzFkE%3D
+ 1855  wget https://www.youtube.com/download_my_video?v=mvJQfNtHgdY&t=QUFFLUhqbjFWRS0zVWZsN1JBVWRtSXlCY2pCU1dKZEFqUXxBQ3Jtc0trSXFGMm9KNXF1YlVDVk9hRG83Ym5pM1BfVjU0dGk1ck5wQ3d6cjh6NVI5OVAtVUZQUHZpZ2phQ3RVVmoyUy16cFc1Mk5QUy00Nk1EXzZ3VEM4TDh5b3huRzh5STlKWHRYTHVaNEViVFFPS0NMeFEwdw%3D%3D
+ 1856  vi wget-log.2
+ 1857  ls -ltr | tail 10
+ 1858  ls -ltr | tail -10
+ 1859  ll --block-size download_my_video?v=mvJQfNtHgdY
+ 1860  ll --block=MB\ download_my_video?v=mvJQfNtHgdY
+ 1861  ll --block=MB download_my_video?v=mvJQfNtHgdY
+ 1862  vi download_my_video?v=mvJQfNtHgdY
+ 1863  pipenv install
+ 1864  python3 script.py
+ 1865  ll
+ 1866  ll videos/Bhabam\ Hajaam.mp4 
+ 1867  ll --block=MB videos/Bhabam\ Hajaam.mp4 
+ 1868  exit
+ 1869  cd ~/Downloads/
+ 1870  sudo apt install ./net.downloadhelper.coapp-1.5.0-1_amd64.deb 
+ 1871  sudo pip install pytube3 --upgrade
+ 1872  pip install pytube3 --upgrade
+ 1873  pip -V
+ 1874  pip install pytube3 --upgrade
+ 1875  vi bhabam.py
+ 1876  python bhabam.py 
+ 1877  vi bhabam.py
+ 1878  python bhabam.py 
+ 1879  vi bhabam-v2.py
+ 1880  python bhabam-v2.py 
+ 1881  ls -ltr | tail -10
+ 1882  cd ~/LEARN/YouTubeDownload
+ 1883  cd ~/LEARN/
+ 1884  mkdir YouTubeDownload
+ 1885  cd YouTubeDownload/
+ 1886  git clone https://github.com/YouTubeDownload/YouTubeDownload.git
+ 1887  ll
+ 1888  cd YouTubeDownload/
+ 1889  cd ~/LEARN/
+ 1890  rm -rf YouTubeDownload/
+ 1891  git clone https://github.com/YouTubeDownload/YouTubeDownload.git
+ 1892  cd YouTubeDownload/
+ 1893  pipenv shell
+ 1894  sudo apt install pipenv
+ 1895  pip install pipenv
+ 1896  pipenv shell
+ 1897  npm run serve
+ 1898  cd ~/LEARN/syncfusion/todo-syncfunction/
+ 1899  code .
+ 1900  cd ../pub-api-app-store-integrations/
+ 1901  git status 
+ 1902  ll
+ 1903  ll docker/
+ 1904  ll docker/mobile/
+ 1905  ll docker/mobile/app_registration/
+ 1906  cd docker/mobile/app_registration/
+ 1907  code .
+ 1908  sudo docker cp rokustoreClass.php a7390e49c98f:/mobile/app_registration/
+ 1909  git status 
+ 1910  git diff
+ 1911  git status 
+ 1912  git diff
+ 1913  git commit -m"WP-5816: Initial commit to accept only alphanumeric channel ID for Roku"
+ 1914  git add -u
+ 1915  git status 
+ 1916  git commit -m"WP-5816: Initial commit to accept only alphanumeric channel ID for Roku"
+ 1917  git push origin roku-url-change 
+ 1918  sudo docker ps -a
+ 1919  sudo docker rm d113dc410135
+ 1920  sudo docker ps -a
+ 1921  sudo docker run -p 9554:8080 -p 9654:8000 -e ENVIORNMENT=dev-k8s-sv3 -d docker.pubmatic.com/app-store-integrations-service:1.0.56
+ 1922  ifconfig
+ 1923  sudo docker ps
+ 1924  sudo docker exec -it a7390e49c98f /bin/bash
+ 1925  cd ~/CODEREPO/roku-url-change/pub-api-
+ 1926  cd ~/CODEREPO/roku-url-change/pub-api-inventorymgmt/
+ 1927  mvn clean install -DskipTests
+ 1928  sudo docker cp inventorymgmt-service/target/inventorymgmt.war 3d472ab6f860:/usr/local/tomcat/webapps
+ 1929  mvn clean install -DskipTests
+ 1930  sudo docker cp inventorymgmt-service/target/inventorymgmt.war 3d472ab6f860:/usr/local/tomcat/webapps
+ 1931  mvn clean install -DskipTests
+ 1932  sudo docker cp inventorymgmt-service/target/inventorymgmt.war 3d472ab6f860:/usr/local/tomcat/webapps
+ 1933  mvn clean install
+ 1934  git status 
+ 1935  git checkout inventorymgmt-client/.settings/org.eclipse.core.resources.prefs inventorymgmt-client/src/main/resources/jacoco_prev.xml inventorymgmt-common/.settings/org.eclipse.core.resources.prefs
+ 1936  git status 
+ 1937  git diff
+ 1938  git status 
+ 1939  git commit -m"WP-5816: Initial commit to accept only alphanumeric channel ID for Roku"
+ 1940  git add -u
+ 1941  git status 
+ 1942  git commit -m"WP-5816: Initial commit to accept only alphanumeric channel ID for Roku"
+ 1943  git push origin roku-url-change 
+ 1944  vi app-resources/app-resources-dev-k8s-sv3.yml 
+ 1945  #sudo docker cp inventorymgmt-service/target/inventorymgmt.war 3d472ab6f860:/usr/local/tomcat/webapps
+ 1946  sudo docker ps -a | head -5
+ 1947  sudo docker start 3d472ab6f860
+ 1948  sudo docker exec -it 3d472ab6f860 /bin/bash
+ 1949  cd ~/CODEREPO/roku-url-change/
+ 1950  git clone git@git.pubmatic.com:PubMatic/api-infrastructure.git
+ 1951  cd api-infrastructure/
+ 1952  git status 
+ 1953  git checkout -B roku-url-change
+ 1954  ifconfig
+ 1955  sudo docker run -p 9552:8080 -p 9652:8000 -e ENVIORNMENT=dev-k8s-sv3 -d docker.pubmatic.com/infrastructure-service:1.0.163
+ 1956  sudo docker ps
+ 1957  sudo docker exec -it 4d4d891a8f00 /bin/bash
+ 1958  ls --help
+ 1959  which alias ls
+ 1960  vi /bin/ls
+ 1961  aliases 
+ 1962  alias
+ 1963  cd ~/CODEREPO/
+ 1964  mkdir tam-and-ob-flag-updates
+ 1965  cd tam-and-ob-flag-updates/
+ 1966  git clone git@git.pubmatic.com:PubMatic/KomliAdServer.git
+ 1967  cd KomliAdServer/
+ 1968  git checkout -b tam-and-ob-flag-updates
+ 1969  vi KomliAdServer_changesets_2020.sql 
+ 1970  git status 
+ 1971  git diff
+ 1972  vi KomliAdServer_changesets_2020.sql 
+ 1973  git diff
+ 1974  git add -u
+ 1975  vi KomliAdServer_changesets_2020.sql 
+ 1976  git diff
+ 1977  git add -u
+ 1978  git diff
+ 1979  vi KomliAdServer_changesets_2020.sql 
+ 1980  git checkout KomliAdServer_changesets_2020.sql
+ 1981  vi KomliAdServer_changesets_2020.sql 
+ 1982  git diff
+ 1983  git add -u
+ 1984  git commit -m"WP-5701: Added template changes for Google OB"
+ 1985  vi KomliAdServer_changesets_2020.sql 
+ 1986  git add -u
+ 1987  git commit -m"WP-5790: Added template changes for Amazon TAM"
+ 1988  git status 
+ 1989  git log
+ 1990  git push origin tam-and-ob-flag-updates 
+ 1991  cd ~/CODEREPO/ci/
+ 1992  cd KomliAdServer/
+ 1993  git status 
+ 1994  git checkout ci
+ 1995  git fecth
+ 1996  git fetch
+ 1997  git pull  origin ci
+ 1998  vi KomliAdServer_changesets_2020.sql 
+ 1999  mysql -ukdbuser -pKdBuSeR12! -h10.110.210.88 -P30712 KomliAdServer -A
+ 2000  cd todo-syncfunction/
+ 2001  npm serve run
+ 2002  npm run serve
+ 2003  npm install --save @vuetify
+ 2004  npm i vuetify
+ 2005  npm run serve
+ 2006  vue add vuetify
+ 2007  npm run serve
+ 2008  npm install --save @vuetify
+ 2009  npm run serve
+ 2010  git stash
+ 2011  vue add vuetify
+ 2012  git status 
+ 2013  git stash pop
+ 2014  git status 
+ 2015  git add .
+ 2016  git status 
+ 2017  git commit -m"First commit"
+ 2018  git push origin master
+ 2019  git status 
+ 2020  git init
+ 2021  git push origin master
+ 2022  git branch -M main
+ 2023  git status 
+ 2024  git remote add origin https://github.com/DiySane/todo-syncfunction.git
+ 2025  git push -u origin main
+ 2026  vue add vuetify
+ 2027  git status 
+ 2028  npm run serve
+ 2029  npm install --save date-fns/format firebase/app firebase/firestore
+ 2030  history | grep firebase
+ 2031  npm install --save firebase date-fns
+ 2032  history > history.out
+ 2033  vi history.out 
+ 2034  npm run serve
+ 2035  npm install --save vue-router
+ 2036  npm run serve
+ 2037  npm install --save vue-router
+ 2038  npm install --save vuex-router
+ 2039  history > history.out
