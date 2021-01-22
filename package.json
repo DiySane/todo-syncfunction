@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "@syncfusion/ej2-vue-inputs": "^18.3.44",
+    "@syncfusion/ej2-vue-navigations": "^18.4.34",
     "core-js": "^3.6.5",
     "date-fns": "^2.16.1",
     "firebase": "^7.24.0",

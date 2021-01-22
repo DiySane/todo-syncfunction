@@ -12,9 +12,12 @@
     <!-- <div>
       <APIDataManager />
     </div> -->
-    <!-- <div>
-      <EditGrid />
-    </div> -->
+    <v-spacer/>
+    <div>
+      <CustomEditGrid />
+    </div>
+    <v-spacer/>
+    <v-spacer/>
   </v-app>
 </template>
 
@@ -22,11 +25,11 @@
 import Navbar from "@/components/Navbar";
 // import UsersGrid from "@/components/UsersGrid";
 // import APIDataManager from "@/components/APIDataManager";
-// import EditGrid from "@/components/EditGrid";
+import CustomEditGrid from "@/views/CustomEditGrid";
 
 export default {
   name: "App",
-  components: { Navbar },
+  components: { Navbar, CustomEditGrid },
   data: () => ({
     //
   })
